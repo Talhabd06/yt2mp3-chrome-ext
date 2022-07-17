@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+header .logo img{
+    width: 80%
+}
+header a{
+    color: #1b1b1b;
+    font-size: 1.5rem;
+}
+
+
+
+.main .container .items .hidden{
+    display: none;
+}
+.main .container .display{
+    display: flex;
+}
+.main{
+    width:100%;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 0 5rem;
+}
+.main .container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap:2rem;
+     background: #fcfcfc;
+     border: 1px solid #1b1b1b;
+     padding: 5rem;
+     border-radius: 5px;
+}
+.main .container .items{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap:2rem;
+}
+.main .container .items input{
+    width: 80%;
+    outline: none;
+    border: 1px solid crimson;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #1b1b1b;
+}
+.main .container .items button,.main .container a, .main .container .stutus{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+     align-items: center;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: crimson;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.main .container .items button:hover{
+    color: #1b1b1b;
+    border: 1px solid crimson;
+    background: transparent;
+}
+.main .container a{
+    display: none;
+}
+.main .container .stutus{
+    display: none;
+    cursor: text;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.footer a{
+    color: crimson;
+}

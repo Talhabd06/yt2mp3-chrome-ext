@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *;">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./popup.css">
+    <script src="./jquery.min.js"></script>
+    <title>Youtube To Mp3 Converter</title>
+</head>
+<body>
+   <header>
+    <div class="logo">
+        <img src="./logo.png" alt="logo">
+    </div>
+    <a href="#">Home</a>
+   </header>
+
+    <section class="main">
+        <div class="container">
+            <h1 class="title">Youtube To Mp3 Converter</h1>
+         <form class="items" method="post">
+            <input type="text" id="input" placeholder="Paste Link Here" value="" required>
+            <button type="submit" id="convert">Convert</button>
+         </form>
+         <div class="stutus">Converting</div>
+         <a id="file" target="_blank" rel="noopener noreferrer">Download</a>
+        </div>
+    </section>
+
+<section class="footer">
+    <p>Copyright  2022 All Right Reserved Designed by <a href="#">MD. Abu Talha Siam</a></p>
+</section>
+<script src="./dropins.js"></script>
+<script src="./converter.js"></script>
+<script src="./popup.js"></script>
+</body>
+</html>
